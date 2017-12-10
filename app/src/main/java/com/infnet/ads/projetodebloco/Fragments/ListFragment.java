@@ -70,6 +70,7 @@ public class ListFragment extends Fragment implements DialogInterface.OnClickLis
         return view;
 
     }
+
     private List<Map<String, Object>> listingProducts() {
 
         pizzaDAO = new PizzaDAO(getContext());
@@ -88,30 +89,49 @@ public class ListFragment extends Fragment implements DialogInterface.OnClickLis
             String category = cursor.getString(4);
             String subCategory = cursor.getString(5);
 
-switch (category) {
-    case "Pizza grande":case "Pizza média":case "Pizza pequena":
-        item.put("image", R.drawable.pizza);
-        break;
-    case "Bebida":
-        item.put("image", R.drawable.bebida);
-        break;
-    case "Sorvete":
-        item.put("image", R.drawable.sorvete);
-        break;
-    default:
-        break;
-}
-            item.put("name", "Nome: " + "Pizza de " +  name);
+            switch (category) {
+                case "Bebida":
+                    item.put("image", R.drawable.bebida);
+                    break;
+                case "Sorvete":
+                    item.put("image", R.drawable.sorvete);
+                    break;
+                default:
+                    break;
+            }
 
-            item.put("value", "Preço: " + "R$" +  price);
+            switch (subCategory) {
+                case "Doce":
+                    item.put("image", R.drawable.pizza_doce);
+                    break;
+
+                case "Salgada":
+                    item.put("image", R.drawable.pizza_seafood);
+                    break;
+
+                case "Vegetariana":
+                    item.put("image", R.drawable.pizza_vegetable);
+                    break;
+
+                case "Carnes":
+                    item.put("image", R.drawable.pizza);
+                    break;
+
+                default:
+                    break;
+
+            }
+            item.put("name", "Nome: " + "Pizza de " + name);
+
+            item.put("value", "Preço: " + "R$" + price);
 
             item.put("description", "Descrição: " + description);
 
             item.put("identity", "ID: " + id);
 
-            item.put("category", "Categoria: " +category);
+            item.put("category", "Categoria: " + category);
 
-            item.put("subCategory", "Sub-categoria: " +subCategory);
+            item.put("subCategory", "Sub-categoria: " + subCategory);
 
             products.add(item);
             cursor.moveToNext(); // Move to next line
