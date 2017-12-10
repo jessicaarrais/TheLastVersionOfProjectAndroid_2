@@ -11,7 +11,7 @@
     <string name="login">Entrar</string>
     <string name="forgot">Esqueceu sua senha? <b>Recuperar acesso</b></string>
     <string name="question">Não possui conta? <b>Cadastre-se</b></string>
-    <string name="enter"><b>Entrar na loja sem conta</b></string>
+    <string name="enter">Entrar na loja sem conta</string>
     <string name="route_db">Acessar DataBase</string>
 
     <!--Sign Up Activity-->
@@ -51,6 +51,12 @@
 
     <!--Client Settings Activity-->
     <string name="client_settings">Conta</string>
+    <string name="txt_user_settings">Usuário: </string>
+    <string name="txt_email_settings">E-mail: </string>
+    <string name="txt_address_settings">Endereço: </string>
+    <string name="txt_city_settings">Cidade: </string>
+    <string name="txt_phone_settings">Telefone: </string>
+    <string name="change_user">Alterar informações</string>
 
     <!--Historical Activity-->
     <string name="historiacal">Histórico de Compras</string>
