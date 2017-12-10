@@ -34,11 +34,11 @@ public class ClientSettingsActivity extends AppCompatActivity {
 
         clientEmail = settings.getString("PrefEmail","");
 
-        name = findViewById(R.id.txtUserSettings);
-        email = findViewById(R.id.txtEmailSettings);
-        street = findViewById(R.id.txtStreetSettings);
-        city = findViewById(R.id.txtCitySettings);
-        number = findViewById(R.id.txtNumberSettings);
+        name = findViewById(R.id.user_settings);
+        email = findViewById(R.id.email_settings);
+        street = findViewById(R.id.street_settings);
+        city = findViewById(R.id.city_settings);
+        number = findViewById(R.id.phone_settings);
 
         for (int i = 0; i<cursor.getCount(); i++){
 
