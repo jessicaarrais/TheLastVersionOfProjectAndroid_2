@@ -1,0 +1,186 @@
+<resources>
+
+    <string name="app_name">Pizza Delivery</string>
+    <string name="title_activity_main">Pizza Delivery</string>
+
+    <!--Log In Activity-->
+    <string name="invalid">Usuário e/ou senha inválidos.</string>
+    <string name="username">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="content_description">Logo</string>
+    <string name="login">Entrar</string>
+    <string name="forgot">Esqueceu sua senha? <b>Recuperar acesso</b></string>
+    <string name="question">Não possui conta? <b>Cadastre-se</b></string>
+    <string name="enter"><b>Entrar na loja sem conta</b></string>
+    <string name="route_db">Acessar DataBase</string>
+
+    <!--Sign Up Activity-->
+    <string name="register_screen">Cadastro</string>
+    <string name="email_exist">E-mail já cadastrado</string>
+    <string name="username_required">* Usuário</string>
+    <string name="email">* E-mail</string>
+    <string name="street">* Rua, número e bairro</string>
+    <string name="city">* Cidade</string>
+    <string name="ref">Ponto de referência</string>
+    <string name="phone">* Telefone</string>
+    <string name="info_pass">A senha deve ter no mínimo 6 caracteres e conter letras e números.</string>
+    <string name="password_required">* Senha</string>
+    <string name="create">Salvar</string>
+    <string name="info_required">* Campos obrigatórios.</string>
+
+    <!--Recover Activity First Step-->
+    <string name="recover_screen">Recuperação de acesso</string>
+    <string name="user_recover">E-mail</string>
+    <string name="pass_recover">Inserir senha recebida</string>
+    <string name="send_password">Enviar senha</string>
+    <string name="invalid_user">Usuário não encontrado.</string>
+
+    <!--Recover Activity Second Step-->
+    <string name="password_recover">Insira o código recebido</string>
+    <string name="confirm_password">Confirmar</string>
+    <string name="invalid_code">Código incorreto</string>
+
+    <!--Navigation Main Activity-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Entrar na conta</string>
+
+    <!--Navigation Main-->
+    <string name="salty_pizza">Pizzas Salgadas</string>
+    <string name="sweet_pizza">Pizzas Doces</string>
+
+    <!--Client Settings Activity-->
+    <string name="client_settings">Conta</string>
+
+    <!--Historical Activity-->
+    <string name="historiacal">Histórico de Compras</string>
+
+    <!--Product Activity-->
+    <string name="price_rs_product">Total a pagar: R$</string>
+    <string name="integer_product">Inteira</string>
+    <string name="half_product">Meio a meio</string>
+    <string name="add_product"><b>Adicionais</b></string>
+    <string name="corner_product"><b>Borda</b></string>
+    <string name="pasta_product"><b>Massa</b></string>
+    <string name="ps_product"><b>Observações</b></string>
+    <string name="add_to_cart_product"><b>+ Carrinho</b></string>
+    <!--Add-->
+    <string name="garlic">Alho +R$2,00</string>
+    <string name="catupiry">Catupiry +R$4,00</string>
+    <string name="champignon">Champignon +R$3,00</string>
+    <string name="eggs">Ovos +R$2,00</string>
+    <string name="palmitto">Palmito +R$5,00</string>
+    <string name="tomato">Tomate Seco +R$5,00</string>
+    <!--Corner-->
+    <string name="catupiry_corner">Catupiry +R$7,00</string>
+    <string name="cheddar_corner">Cheddar +R$6,00</string>
+    <string name="four_cheese_corner">4 Queijos +R$8,00</string>
+    <string name="nutella_corner">Nutella +R$11,00</string>
+    <string name="without_corner">Sem recheio</string>
+    <!--Pasta-->
+    <string name="pan_pasta">Pan</string>
+    <string name="thin_pasta">Fina</string>
+    <string name="traditional_pasta">Tradicional</string>
+    <string name="integral_pasta">Integral</string>
+
+    <!--Cart Activity-->
+    <string name="message_cart">Carrinho</string>
+    <string name="items_cart">itens</string>
+    <string name="rs_cart">R$</string>
+    <string name="more_cart">Continuar comprando</string>
+    <string name="bought_cart">Realizar Pedido</string>
+
+    <!--Finished Activity-->
+    <string name="back_finished">Voltar para a loja</string>
+    <string name="done_finished">Compra realizada com sucesso!</string>
+    <string name="info_finished">
+        Seu pedido será entregue no endereço cadastrado dentro de aproximadamente 40 minutos.
+    </string>
+
+    <!--Data Base-->
+    <string name="insert_txt">Inserir</string>
+    <string name="remove_txt">Remover</string>
+    <string name="update_txt">Atualizar</string>
+    <string name="confirm_txt">CONFIRMAR</string>
+    <string name="operation_txt">Operações de administrador</string>
+    <string name="update_success">Item atualizado com sucesso</string>
+    <string name="updateOrRemove_unsuccessful">ID não encontrado!</string>
+    <string name="remove_success">Item removido com sucesso</string>
+    <string name="insert_unsuccessful">Sem sucesso ao salvar</string>
+    <string name="insert_success">Salvo com sucesso</string>
+    <string name="fragment_insert_name">Insira um nome:</string>
+    <string name="fragment_insert_price">Insira o preço:</string>
+    <string name="fragment_insert_description">Insira uma descrição:</string>
+    <string name="fragment_remove_id">ID do produto a ser removido</string>
+    <string name="fragment_update_name">Insira o nome: </string>
+    <string name="fragment_update_price">Insira o preço:  </string>
+    <string name="fragment_update_description">Insira uma descrição: </string>
+    <string name="fragment_update_id">ID do produto a ser alterado</string>
+    <string name="list_available_products">Lista de produtos disponiveis</string>
+    <string name="fragment_insert_type">Selecione a categoria:</string>
+    <string name="fragment_insert_subtype">Selecione a sub-categoria:</string>
+    <string name="insert_nothingSelected">Selecione alguma opção porfavor</string>
+    <string-array name="product_type">
+        <item>Pizza grande</item>
+        <item>Pizza média</item>
+        <item>Pizza pequena</item>
+        <item>Bebida</item>
+        <item>Sorvete</item>
+    </string-array>
+
+    <string-array name="product_subtype_pizza">
+        <item>Doce</item>
+        <item>Salgada</item>
+        <item>Vegetariana</item>
+        <item>Carnes</item>
+    </string-array>
+
+    <string-array name="product_subtype_drinks">
+        <item>Sucos</item>
+        <item>Águas e Refrigerantes</item>
+        <item>Cerveja e Outros</item>
+    </string-array>
+
+    <string-array name="product_subtype_icecream">
+        <item>Nestlé</item>
+        <item>Kibon</item>
+        <item>Ben Jerrys</item>
+    </string-array>
+
+    <!--Spinner UF-->
+    <array name="state_array">
+        <item>UF</item>
+        <item>AC</item>
+        <item>AL</item>
+        <item>AP</item>
+        <item>AM</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MT</item>
+        <item>MS</item>
+        <item>MG</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PR</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RS</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>SC</item>
+        <item>SP</item>
+        <item>SE</item>
+        <item>TO</item>
+    </array>
+
+    <string name="show_orders_menu_op">Ver pedidos</string>
+    <string name="title_activity_adm_client_list">AdmClientList</string>
+    <string name="action_shopping_cart">Carrinho de compras</string>
+
+</resources>

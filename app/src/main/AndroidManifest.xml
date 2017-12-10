@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.infnet.ads.projetodebloco">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_acasadapizzaestufada"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCompat.TelaCheia">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.RecoverFirstStepActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.LogInActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.ProductActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Manager.OperationScreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ClientSettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.HistoricalActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Manager.AdmClientList"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.CartActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.FinishedActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Manager.AdmClientItemList"
+            android:screenOrientation="portrait"
+            />
+
+    </application>
+
+</manifest>

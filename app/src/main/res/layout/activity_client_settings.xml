@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/colorSecondaryDark"
+    tools:context="com.infnet.ads.projetodebloco.Activities.ClientSettingsActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Nome:" />
+
+    <TextView
+        android:id="@+id/txtUserSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="Usuario" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/textView3"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/txtEmailSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/textView5"
+        android:text="Usuario@exemplo.com" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/textView5"
+        android:text="Endereço:" />
+
+    <TextView
+        android:id="@+id/txtStreetSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/textView7"
+        android:text="Rua Exemplo 999" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/textView7"
+        android:text="Cidade: " />
+
+    <TextView
+        android:id="@+id/txtCitySettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/textView9"
+        android:text="Rio de Janeiro" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/textView9"
+        android:text="Telefone: " />
+
+    <TextView
+        android:id="@+id/txtNumberSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/textView11"
+        android:text="999999999" />
+
+
+
+
+
+</RelativeLayout>
